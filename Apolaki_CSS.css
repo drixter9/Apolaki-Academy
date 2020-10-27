@@ -198,7 +198,7 @@ body{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 }
-@media (min-width: 994px) {
+@media (min-width: 1200px) {
     .backgroundimage{
     background-image: url("Background.png");
     background-size:100% 100%;
@@ -228,12 +228,12 @@ body{
     height:8vh;
 }
 .col-lg-7 p{
-    margin-top: 180px;
-    margin-right: -180px;
+    margin-right:-280px;
+    margin-top:210px;
     color:#fff;
     text-align:-webkit-center;
     font-family:Century Gothic Regular;
-    font-size: 1.15em;
+    font-size: 29px;
 }
 .container btn {
     font-size: 1px;
@@ -321,6 +321,17 @@ h2:after{
 .container h1{
     margin:20px;
     text-align:center;
+}
+.jumbotron0{
+    background: #eae1cf;
+    color:#669d88;
+    padding-top:20px;
+    padding-bottom:50px; Comic Sans MS
+}
+.container h1{
+    font-family:Comic Sans MS;
+    color:#669d88;
+    font-weight: bold;
 }
 .jumbotron1{
     background-image: url("aboutUs/webdevPolaroid.png");
