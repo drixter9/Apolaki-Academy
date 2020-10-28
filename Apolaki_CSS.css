@@ -241,11 +241,11 @@ body{
     max-width:30vh;
     height:8vh;
 }
-.col-lg-8 p{
+.col-lg-8 .text{
     color:#fff;
     font-family:Century Gothic Regular;
     font-size: 28px;
-
+    text-size-adjust: none;
     min-width:1000px;
     height:auto;
     position:relative;
@@ -428,3 +428,7 @@ h2:after{
     margin-top:10px;
     text-align:left;
 }
+
+
+
+
